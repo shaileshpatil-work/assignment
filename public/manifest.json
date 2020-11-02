@@ -1,0 +1,8 @@
+{
+  "short_name": "Assignment",
+  "name": "Assignment",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#F1F0F1"
+}

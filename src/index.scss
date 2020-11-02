@@ -1,0 +1,150 @@
+// fonts
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: local('OpenSans'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: local('OpenSans'), url(./fonts/OpenSans-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: local('OpenSans'), url(./fonts/OpenSans-SemiBold.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// colors
+$color-primary: #5B3084;
+$color-secondary: #592D83;
+$color-tertiary: #0a0a0a;
+$color-quaternary: #f1f0f1;
+$color-highlightsText: #3cca17;
+$color-white: #ffffff;
+
+// size
+
+$size-50: 50px;
+$size-30: 30px;
+$size-18: 18px;
+$size-15: 15px;
+$size-13: 13px;
+
+// css
+body {
+  margin: 0;
+  font-family: 'OpenSansRegular', Arial, serif;
+  color: $color-tertiary;
+  background-color: $color-quaternary;
+}
+
+h1 {
+  color: $color-primary;
+  font-size: $size-30;
+  font-family: 'OpenSansBold';
+}
+
+p {
+  font-size: $size-15;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: $color-secondary;
+  font-size: $size-18;
+  font-family: 'OpenSansSemiBold';
+}
+
+h4 {
+  color: $color-white;
+  font-size: $size-18;
+  font-family: 'OpenSansSemiBold';
+  margin-bottom: 0;
+}
+
+span {
+  font-size: $size-15;
+}
+
+.highligtContent {
+  color: $color-highlightsText;
+}
+
+.right-section {
+  .row {
+     > div {
+      &:nth-child(-n + 2) {
+        margin-bottom: $size-15;
+      }
+      @media (max-width: 767px) {
+        margin-bottom: $size-15;
+      }
+    }
+  }
+}
+
+.card-wrapper {
+  border: 0;
+  border-radius: 0;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
+  box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
+}
+
+.text-decoration-none {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.left-section {
+  background: url(bg-img.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: $size-18;
+  @media (max-width: 767px) {
+    height: auto;
+  }
+}
+
+.banner-wrapper {
+  width: 40%;
+}
+
+// popup 
+.popup {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow: hidden;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+  max-width: 500px;
+  margin:  $size-50 auto;
+  position: relative;
+  width: auto;
+  background: $color-secondary;
+  padding: $size-30;
+}
+
+.close-icon {
+  height: 25px;
+  width: 25px;
+}

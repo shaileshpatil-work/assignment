@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component content testing App component snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="mx-auto w-75 my-4"
+    >
+      <h1
+        class="text-center mb-1"
+      >
+        Our Products
+      </h1>
+      <p
+        class="text-center"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12 col-md-6"
+      >
+        <div
+          class="left-section mb-0 mb-3"
+        >
+          <div
+            class="banner-wrapper"
+          >
+            <h4>
+              Electronic Heath Records
+            </h4>
+            <p
+              class="mt-2 mb-2 text-white"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+            <a
+              class="text-decoration-none"
+              href="https://www.google.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span
+                class="highligtContent"
+              >
+                Streamline documentation
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-12 col-md-6 right-section"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-6"
+          >
+            <div
+              class="card card-wrapper box-shadow h-100"
+            >
+              <a
+                class="text-decoration-none"
+                href="https://www.cybage.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="card-body text-center"
+                >
+                  <h3>
+                    MEDICAL BILLING
+                  </h3>
+                  <p
+                    class="mb-1"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <span
+                    class="highligtContent"
+                  >
+                    Get paid faster
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6"
+          >
+            <div
+              class="card card-wrapper box-shadow h-100"
+            >
+              <a
+                class="text-decoration-none"
+                href="https://getbootstrap.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="card-body text-center"
+                >
+                  <h3>
+                    PATIENT ENGAGEMENT
+                  </h3>
+                  <p
+                    class="mb-1"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <span
+                    class="highligtContent"
+                  >
+                    Stay connected
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6"
+          >
+            <div
+              class="card card-wrapper box-shadow h-100"
+            >
+              <a
+                class="text-decoration-none"
+                href="https://getbootstrap.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="card-body text-center"
+                >
+                  <h3>
+                    CARE COORDINATION
+                  </h3>
+                  <p
+                    class="mb-1"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <span
+                    class="highligtContent"
+                  >
+                    Coordinate seamlessly
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6"
+          >
+            <div
+              class="card card-wrapper box-shadow h-100"
+            >
+              <a
+                class="text-decoration-none"
+                href="https://www.google.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="card-body text-center"
+                >
+                  <h3>
+                    MOBILE CAPABILITIES
+                  </h3>
+                  <p
+                    class="mb-1"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <span
+                    class="highligtContent"
+                  >
+                    Pratice On-the-go
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row mt-3"
+    >
+      <div
+        class="col-sm-12 col-md-6 mb-0 mb-3"
+      >
+        <a
+          class="d-flex justify-content-center p-3 bg-white text-decoration-none box-shadow"
+          role="button"
+        >
+          POPULATION HEALTH
+        </a>
+      </div>
+      <div
+        class="col-sm-12 col-md-6 mb-0 mb-3"
+      >
+        <a
+          class="d-flex justify-content-center p-3 bg-white text-decoration-none box-shadow"
+          role="button"
+        >
+          EPOCRATES
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
