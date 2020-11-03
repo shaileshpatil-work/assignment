@@ -18,13 +18,13 @@ const App = () => {
     <div className='container main-wrapper'>
       <div className='mx-auto w-75 my-4'>
         <MainHeading classes='text-center mb-1'>Our Products</MainHeading>
-        <Paragraph alignment='text-center'>Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry becnmarks across the board.</Paragraph>
+        <Paragraph alignment='text-center'>Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry benchmarks across the board.</Paragraph>
       </div>
       <div className='row custom-row'>
         <div className='col-sm-12 col-md-6'>
           <div className='left-section mb-0 mb-3'>
               <div className='banner-wrapper'>
-                <h4>Electronic Heath Records</h4>
+                <h4>ELECTRONIC HEALTH RECORDS</h4>
                 <Paragraph color='text-white' spacing='mt-2 mb-2'>All your patient data organized and available so you can be entirely in the moment of care.</Paragraph>
                 <a href='https://www.google.com/' className='text-decoration-none' target='_blank' rel='noreferrer'><HighLightText color='highligtContent'>Streamline documentation</HighLightText></a>                
               </div>            

@@ -24,12 +24,10 @@
 $color-primary: #5B3084;
 $color-secondary: #592D83;
 $color-tertiary: #0a0a0a;
-$color-quaternary: #f1f0f1;
 $color-highlightsText: #3cca17;
 $color-white: #ffffff;
 
 // size
-
 $size-50: 50px;
 $size-30: 30px;
 $size-25: 25px;
@@ -44,7 +42,7 @@ body {
   margin: 0;
   font-family: 'OpenSansRegular', Arial, serif;
   color: $color-tertiary;
-  background-color: $color-quaternary;
+  background-color: linear-gradient(to bottom, #eeeeef 0%, #fff 50%);
 }
 
 h1 {
@@ -59,18 +57,14 @@ p {
   color: $color-tertiary;
 }
 
-.subheading {
-  color: $color-secondary;
-  font-size: $size-16;
-  font-family: 'OpenSansSemiBold';
-}
-
 h4 {
   color: $color-white;
   font-size: $size-16;
   font-family: 'OpenSansSemiBold';
   margin-bottom: 0;
+  line-height: 1.5;
 }
+
 .main-wrapper {
   padding: 0 10px;
   .custom-row {
@@ -82,7 +76,14 @@ h4 {
 }
 
 .trademark {
-  top: 12px;
+  top: 10px;
+  font-size: 10px;
+}
+
+.subheading {
+  color: $color-secondary;
+  font-size: $size-16;
+  font-family: 'OpenSansSemiBold';
 }
 
 span {
@@ -112,9 +113,9 @@ span {
 }
 
 .box-shadow {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
-  box-shadow: 0px 0px 5px 0px rgba(143,132,143,1);
+  -webkit-box-shadow: 2px 2px 9px 3px hsla(0,0%,85%,.5);
+  -moz-box-shadow: 2px 2px 9px 3px hsla(0,0%,85%,.5);
+  box-shadow: 2px 2px 9px 3px hsla(0,0%,85%,.5);
 }
 
 .text-decoration-none {
@@ -127,7 +128,7 @@ span {
   background: url(bg-img.png) no-repeat;
   background-size: cover;
   height: 100%;
-  padding: $size-18;
+  padding: $size-30;
   @media (max-width: 767px) {
     height: auto;
   }
