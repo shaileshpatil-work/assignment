@@ -16,7 +16,7 @@ describe('App component content testing', () => {
 
   test('bannerHeadingElement should have Electronic Heath Records name', () => {
     render(<App />);
-    const bannerHeadingElement = screen.getByText(/Electronic Heath Records/i);
+    const bannerHeadingElement = screen.getByText(/Electronic Health Records/i);
     expect(bannerHeadingElement).toBeInTheDocument();
   });
 });

@@ -16,7 +16,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
       <p
         class="text-center"
       >
-        Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry becnmarks across the board.
+        Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That’s why our top-performing clients are beating industry benchmarks across the board.
       </p>
     </div>
     <div
@@ -32,7 +32,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
             class="banner-wrapper"
           >
             <h4>
-              Electronic Heath Records
+              ELECTRONIC HEALTH RECORDS
             </h4>
             <p
               class="mt-2 mb-2 text-white"
@@ -83,7 +83,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
                   <p
                     class="mb-1"
                   >
-                    Cure your billing woes with an automated claims process that measurably improves collections.
+                    Cure your billing woes with an automated claims process that measurably improves collections.s
                   </p>
                   <span
                     class="highligtContent"
@@ -117,7 +117,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
                   <p
                     class="mb-1"
                   >
-                    Reduce no-shows and stay connected through every stage of there visit with our robust patient portal.
+                    Reduce no-shows and stay connected through every stage of their visit with our robust patient portal.
                   </p>
                   <span
                     class="highligtContent"
@@ -190,7 +190,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
                   <span
                     class="highligtContent"
                   >
-                    Pratice On-the-go
+                    Pratice on-the-go
                   </span>
                 </div>
               </a>
