@@ -1,8 +1,9 @@
 import React from 'react';
+import classNames from 'classnames';
 
 const SubHeading = ({ alignment, children }) => {
     return (
-        <h3 className={alignment}>{children}</h3>
+        <h3 className={classNames(alignment, 'subheading')}>{children}</h3>
     )
 }
 

@@ -15,23 +15,23 @@ const App = () => {
   }
 
   return (
-    <div className='container'>
+    <div className='container main-wrapper'>
       <div className='mx-auto w-75 my-4'>
         <MainHeading classes='text-center mb-1'>Our Products</MainHeading>
-        <Paragraph alignment='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
+        <Paragraph alignment='text-center'>Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry becnmarks across the board.</Paragraph>
       </div>
-      <div className='row'>
+      <div className='row custom-row'>
         <div className='col-sm-12 col-md-6'>
           <div className='left-section mb-0 mb-3'>
               <div className='banner-wrapper'>
                 <h4>Electronic Heath Records</h4>
-                <Paragraph color='text-white' spacing='mt-2 mb-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Paragraph>
+                <Paragraph color='text-white' spacing='mt-2 mb-2'>All your patient data organized and available so you can be entirely in the moment of care.</Paragraph>
                 <a href='https://www.google.com/' className='text-decoration-none' target='_blank' rel='noreferrer'><HighLightText color='highligtContent'>Streamline documentation</HighLightText></a>                
               </div>            
           </div>
         </div>
         <div className='col-sm-12 col-md-6 right-section'>
-          <div className='row'>
+          <div className='row custom-row'>
             {
               CardConstants.map((card) => {
                 return(                  
@@ -44,18 +44,15 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='row mt-3'>        
-        {
-          BUTTONS.map((btn) => {
-            return (
-              <div className='col-sm-12 col-md-6 mb-0 mb-3' key={btn}>
-                <PopupBtn popup={handlePopup}>{btn}</PopupBtn>
-              </div>
-            )
-          })
-        }
+      <div className='row custom-row mt-3'>                     
+          <div className='col-sm-12 col-md-6 mb-0 mb-3'>
+            <PopupBtn popup={handlePopup}>POPULATION HEALTH</PopupBtn>
+          </div>
+        <div className='col-sm-12 col-md-6 mb-0 mb-3'>
+          <PopupBtn popup={handlePopup}>EPOCRATES<sup className='trademark'>&#174;</sup></PopupBtn>
+        </div>         
       </div>
-      {visiblePopup && <Popup popup={handlePopup}/>}
+      {visiblePopup && <Popup popup={handlePopup} cards={CardConstants.slice(0, 2)}/>}
     </div>
   );
 }

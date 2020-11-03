@@ -32,8 +32,11 @@ $color-white: #ffffff;
 
 $size-50: 50px;
 $size-30: 30px;
+$size-25: 25px;
 $size-18: 18px;
+$size-16: 16px;
 $size-15: 15px;
+$size-13: 13px;
 $size-13: 13px;
 
 // css
@@ -46,26 +49,40 @@ body {
 
 h1 {
   color: $color-primary;
-  font-size: $size-30;
+  font-size: $size-25;
   font-family: 'OpenSansBold';
 }
 
 p {
   font-size: $size-15;
   margin-bottom: 0;
+  color: $color-tertiary;
 }
 
-h3 {
+.subheading {
   color: $color-secondary;
-  font-size: $size-18;
+  font-size: $size-16;
   font-family: 'OpenSansSemiBold';
 }
 
 h4 {
   color: $color-white;
-  font-size: $size-18;
+  font-size: $size-16;
   font-family: 'OpenSansSemiBold';
   margin-bottom: 0;
+}
+.main-wrapper {
+  padding: 0 10px;
+  .custom-row {
+    margin: 0 -10px;
+    [class*='col-'] {
+      padding: 0 10px;
+    }
+  }
+}
+
+.trademark {
+  top: 12px;
 }
 
 span {
@@ -136,11 +153,11 @@ span {
 }
 
 .popup-content {
-  max-width: 500px;
+  max-width: 600px;
   margin:  $size-50 auto;
   position: relative;
   width: auto;
-  background: $color-secondary;
+  background: $color-white;
   padding: $size-30;
 }
 

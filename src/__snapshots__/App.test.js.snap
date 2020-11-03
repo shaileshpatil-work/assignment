@@ -3,7 +3,7 @@
 exports[`App component content testing App component snapshot testing 1`] = `
 <DocumentFragment>
   <div
-    class="container"
+    class="container main-wrapper"
   >
     <div
       class="mx-auto w-75 my-4"
@@ -16,11 +16,11 @@ exports[`App component content testing App component snapshot testing 1`] = `
       <p
         class="text-center"
       >
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry becnmarks across the board.
       </p>
     </div>
     <div
-      class="row"
+      class="row custom-row"
     >
       <div
         class="col-sm-12 col-md-6"
@@ -37,7 +37,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
             <p
               class="mt-2 mb-2 text-white"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              All your patient data organized and available so you can be entirely in the moment of care.
             </p>
             <a
               class="text-decoration-none"
@@ -58,7 +58,7 @@ exports[`App component content testing App component snapshot testing 1`] = `
         class="col-sm-12 col-md-6 right-section"
       >
         <div
-          class="row"
+          class="row custom-row"
         >
           <div
             class="col-sm-6"
@@ -75,13 +75,15 @@ exports[`App component content testing App component snapshot testing 1`] = `
                 <div
                   class="card-body text-center"
                 >
-                  <h3>
+                  <h3
+                    class="subheading"
+                  >
                     MEDICAL BILLING
                   </h3>
                   <p
                     class="mb-1"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Cure your billing woes with an automated claims process that measurably improves collections.
                   </p>
                   <span
                     class="highligtContent"
@@ -107,13 +109,15 @@ exports[`App component content testing App component snapshot testing 1`] = `
                 <div
                   class="card-body text-center"
                 >
-                  <h3>
+                  <h3
+                    class="subheading"
+                  >
                     PATIENT ENGAGEMENT
                   </h3>
                   <p
                     class="mb-1"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Reduce no-shows and stay connected through every stage of there visit with our robust patient portal.
                   </p>
                   <span
                     class="highligtContent"
@@ -139,13 +143,15 @@ exports[`App component content testing App component snapshot testing 1`] = `
                 <div
                   class="card-body text-center"
                 >
-                  <h3>
+                  <h3
+                    class="subheading"
+                  >
                     CARE COORDINATION
                   </h3>
                   <p
                     class="mb-1"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Share secure data and collaborate with internal and external care teams more easily.
                   </p>
                   <span
                     class="highligtContent"
@@ -171,13 +177,15 @@ exports[`App component content testing App component snapshot testing 1`] = `
                 <div
                   class="card-body text-center"
                 >
-                  <h3>
+                  <h3
+                    class="subheading"
+                  >
                     MOBILE CAPABILITIES
                   </h3>
                   <p
                     class="mb-1"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Access medical information and take action on urgent taks anywhere, anytime from your mobile device.
                   </p>
                   <span
                     class="highligtContent"
@@ -192,13 +200,13 @@ exports[`App component content testing App component snapshot testing 1`] = `
       </div>
     </div>
     <div
-      class="row mt-3"
+      class="row custom-row mt-3"
     >
       <div
         class="col-sm-12 col-md-6 mb-0 mb-3"
       >
         <a
-          class="d-flex justify-content-center p-3 bg-white text-decoration-none box-shadow"
+          class="d-flex justify-content-center p-4 bg-white text-decoration-none box-shadow subheading"
           role="button"
         >
           POPULATION HEALTH
@@ -208,10 +216,15 @@ exports[`App component content testing App component snapshot testing 1`] = `
         class="col-sm-12 col-md-6 mb-0 mb-3"
       >
         <a
-          class="d-flex justify-content-center p-3 bg-white text-decoration-none box-shadow"
+          class="d-flex justify-content-center p-4 bg-white text-decoration-none box-shadow subheading"
           role="button"
         >
           EPOCRATES
+          <sup
+            class="trademark"
+          >
+            ®
+          </sup>
         </a>
       </div>
     </div>

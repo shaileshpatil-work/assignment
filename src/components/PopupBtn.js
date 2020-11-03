@@ -5,7 +5,7 @@ const PopupBtn = ({ children, popup }) => {
         popup(true)
     }
     return (
-        <a className='d-flex justify-content-center p-3 bg-white text-decoration-none box-shadow' role="button" onClick={showPopup}>{children}</a>
+        <a className='d-flex justify-content-center p-4 bg-white text-decoration-none box-shadow subheading' role="button" onClick={showPopup}>{children}</a>
     )
 }
 
