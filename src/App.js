@@ -18,7 +18,7 @@ const App = () => {
     <div className='container main-wrapper'>
       <div className='mx-auto w-75 my-4'>
         <MainHeading classes='text-center mb-1'>Our Products</MainHeading>
-        <Paragraph alignment='text-center'>Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That's why our top-performing clients are beating industry benchmarks across the board.</Paragraph>
+        <Paragraph alignment='text-center'>Our cloud-based and on-premises solutions deliver measurable financial and clinical results for healthcare organizations of all shapes and sizes. That’s why our top-performing clients are beating industry benchmarks across the board.</Paragraph>
       </div>
       <div className='row custom-row'>
         <div className='col-sm-12 col-md-6'>
