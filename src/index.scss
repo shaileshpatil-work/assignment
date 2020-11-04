@@ -163,6 +163,12 @@ span {
 }
 
 .close-icon {
-  height: 25px;
-  width: 25px;
+  background: transparent;
+  border: 0;
+  &:focus {
+    outline: 0;
+  }
+  span {
+    font-size: 30px;
+  }
 }

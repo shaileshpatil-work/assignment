@@ -1,18 +1,17 @@
 import React from 'react';
-import Closeicon from '../close.png';
 import Card from './Card';
 
 const Popup = ({popup, cards}) => {
     const hidePopup = () => {
         popup(false)
     }
-    
+
     return (
         <div className='popup'>
             <div className='popup-content'>
                 <div className='text-right mb-2'>
-                    <button onClick={hidePopup}>
-                        <img src={Closeicon} alt='close icon' className='close-icon' />
+                    <button onClick={hidePopup} className='close-icon'>
+                        <span>&times;</span>
                     </button>
                 </div>
                 <div className='row'>
