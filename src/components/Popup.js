@@ -6,6 +6,7 @@ const Popup = ({popup, cards}) => {
     const hidePopup = () => {
         popup(false)
     }
+    
     return (
         <div className='popup'>
             <div className='popup-content'>

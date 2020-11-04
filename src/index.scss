@@ -37,7 +37,7 @@ $size-15: 15px;
 $size-13: 13px;
 $size-13: 13px;
 
-// css
+// main css
 body {
   margin: 0;
   font-family: 'OpenSansRegular', Arial, serif;
@@ -65,6 +65,10 @@ h4 {
   line-height: 1.5;
 }
 
+span {
+  font-size: $size-15;
+}
+
 .main-wrapper {
   padding: 0 10px;
   .custom-row {
@@ -86,25 +90,8 @@ h4 {
   font-family: 'OpenSansSemiBold';
 }
 
-span {
-  font-size: $size-15;
-}
-
 .highligtContent {
   color: $color-highlightsText;
-}
-
-.right-section {
-  .row {
-     > div {
-      &:nth-child(-n + 2) {
-        margin-bottom: $size-15;
-      }
-      @media (max-width: 767px) {
-        margin-bottom: $size-15;
-      }
-    }
-  }
 }
 
 .card-wrapper {
@@ -131,6 +118,19 @@ span {
   padding: $size-30;
   @media (max-width: 767px) {
     height: auto;
+  }
+}
+
+.right-section {
+  .row {
+     > div {
+        &:nth-child(-n + 2) {
+          margin-bottom: $size-15;
+        }
+        @media (max-width: 767px) {
+          margin-bottom: $size-15;
+        }
+    }
   }
 }
 
